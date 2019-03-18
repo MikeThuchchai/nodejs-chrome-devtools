@@ -1,0 +1,21 @@
+{
+  "name": "guest-service",
+  "version": "1.2.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:inspect": "nodemon src/server.js --inspect=0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeThuchchai/nodejs-chrome-devtools"
+  },
+  "author": "Mike Thuchchai",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "express": "4.15.*"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.*"
+  }
+}
