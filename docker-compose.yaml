@@ -7,4 +7,4 @@ services:
     ports:
     - "3000:3000"
     - "9229:9229"
-    command: ["/bin/sh", "-c","yarn && yarn dev:inspect"]
+    command: ["/bin/sh", "-c","yarn && yarn --inspect=0.0.0.0"]
